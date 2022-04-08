@@ -1,9 +1,21 @@
+import os
+import zipfile
+
 import domdiv
 import domdiv.main
-from zipfile import ZipFile, ZIP_DEFLATED
+from setuptools_scm import get_version
 
-prefix = "generated/sumpfork_dominion_tabs_"
-postfix = "v" + domdiv.__version__ + ".pdf"
+if not os.path.exists("generated"):
+    os.makedirs("generated")
+
+version = ".".join(
+    get_version(root=".", relative_to=__file__, version_scheme="post-release").split(
+        "."
+    )[:3]
+)
+
+prefix = "generated/sumpfork_dominion_dividers_"
+postfix = "v" + version + ".pdf"
 
 
 def doit(args, main):
@@ -31,11 +43,11 @@ additional = ["--expansion-dividers"]
 fnames = [doit(args[0] + " " + " ".join(additional), args[1]) for args in argsets]
 print(fnames)
 
-zip = ZipFile(
-    "generated/sumpfork_dominion_tabs_v" + domdiv.__version__ + ".zip",
+zip = zipfile.ZipFile(
+    f"generated/sumpfork_dominion_dividers_v{version}.zip",
     "w",
-    ZIP_DEFLATED,
+    zipfile.ZIP_DEFLATED,
 )
 for f in fnames:
-    zip.write(f)
+    zip.write(f, arcname=f"sumpfork_dominion_dividers/{os.path.basename(f)}")
 zip.close()

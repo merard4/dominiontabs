@@ -1,6 +1,6 @@
 # Dominion Divider Generation
 
-![Tests](https://github.com/sumpfork/dominiontabs/actions/workflows/lint_and_test.yml/badge.svg)
+[![PyPi version](https://badgen.net/pypi/v/pip/)](https://pypi.com/project/pip) ![Tests](https://github.com/sumpfork/dominiontabs/actions/workflows/lint_and_test.yml/badge.svg)
 
 ## Introduction
 
