@@ -3060,5 +3060,50 @@
         "description": "<justify>Elk spoor geeft actiekaarten een extra optie: je kunt de actiekaart op de gebruikelijke manier spelen of spelen om uit te voeren wat het spoor zegt. Het spelen van een actiekaart als spoor betekent dat je bij het spelen ervan niets mag doen wat er op de actiekaart staat. <i><b>Voorbeeld: </b>Spoor van het Schaap is in het spel en zegt +2 Coin. Je zou een Paard kunnen spelen om +2 Coin te krijgen. Doe je dat, dan krijg je niet +2 Kaarten en +1 Actie en je legt het Paard ook niet terug op diens stapel.</i></justify>",
         "extra": "Spoorkaarten zijn geen koninkrijkkaarten en kunnen niet worden gekocht. Ze liggen op tafel en veranderen uitsluitend de spelregels. Tekst onder een scheidslijn blijft onveranderd en vindt plaats als deze aangeeft dat er iets gebeurt. <i><b>Voorbeeld: </b> speel je een Hoofdweg (uit Het Achterland) en gebruik je Spoor van het Schaap, dan krijg +2 Coin en, omdat Hoofdweg in het spel is, diens eigenschap om kaarten goedkoper te maken.</i>. Draai een kaart die je als spoor hebt gebruikt een halve slag, zodat je dat niet vergeet. Sommige spoorkaarten verwijzen naar \"deze kaart\". Dat is de kaart die wordt gebruikt om de eigenschap van het spoor uit te voeren. <i><b>Voorbeeld: </b>Spoor van de Schildpad geeft aan: \"Leg deze kaart opzij...\". Als je een Markt speelt om als Spoor van de Schildpad te gebruiken, leg je de Markt opzij.</i> Tovenares uit Keizerrijken verandert ook wat een actiekaart doet als deze wordt gespeeld. Als je door een Tovenares wordt getroffen, mag je een spoor gebruiken in plaats van de +1 Kaart en +1 Actie te ontvangen die de Tovenares je zou geven. Kan een actiekaart op een ongebruikelijk moment worden gespeeld, zoals de Herdershond, dan mag deze ook als spoor worden gebruikt. Speel je een actiekaart meermaals met een kaart zoals Meesterbrein, dan mag je elke keer opnieuw beslissen of je de kaart als spoor inzet of niet. Gaat het om een duurzame kaart, dan blijft deze uitsluitend in het spel als de kaart ten minste 1 keer voor diens eigen eigenschappen is gespeeld. Blijft de kaart in het spel, dan moet je onthouden hoe vaak je de kaart voor diens eigen eigenschappen hebt gespeeld. De keuze om een kaart al dan niet als spoor te gebruiken gebeurt nadat de \"eerste\" eigenschappen op bijvoorbeeld Oven of Slotgracht hebben plaatsgevonden. De fiches uit Avonturen worden ook toegepast als een kaart als spoor wordt gespeeld.",
         "name": "Spoorkaarten"
+    },
+    "Astrolabe": {
+        "description": "",
+        "extra": "",
+        "name": "Sextant"
+    },  
+    "Monkey": {
+        "description": "",
+        "extra": "",
+        "name": "Aap"
+    },
+     "Sea Chart": {
+        "description": "",
+        "extra": "",
+        "name": "Zeekaart"
+    },
+    "Blockade": {
+        "description": "",
+        "extra": "",
+        "name": "Blokkade"
+    },
+    "Sailor": {
+        "description": "",
+        "extra": "",
+        "name": "Matroos"
+    },
+    "Tide Pools": {
+        "description": "",
+        "extra": "",
+        "name": "Getijdenpoelen"
+    },
+    "Corsair": {
+        "description": "",
+        "extra": "",
+        "name": "Zeerover"
+    },
+    "Pirate": {
+        "description": "",
+        "extra": "",
+        "name": "Piraat"
+    },
+     "Sea Witch": {
+        "description": "",
+        "extra": "",
+        "name": "Zeekol"
     }
 }
